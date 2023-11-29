@@ -23,4 +23,9 @@ systemctl daemon-reload
 systemctl enable traccar.service
 
 rm /opt/traccar/setup.sh
-rm -r ../out
+ls
+ls ../out
+pwd
+cd ..
+pwd
+sudo rm -r out
